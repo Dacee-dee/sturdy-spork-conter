@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 100px;
+    position: relative;
+}
+#counterContainer{
+    margin-top: 100px;
+    padding: 20px 60px;
+    border-radius: 12px;
+    min-width: 100px;
+    background-image: linear-gradient(to left bottom, #320539, #2f1244, #2a1d4e, #232657, #1a2f5e);
+    
+}
+#buttonsContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:100px; 
+}
+
+#decreaseButton,#resetButton,#increaseButton{
+width: 100px;
+height: 40px;
+background: #c33764;
+background: -webkit-linear-gradient(to bottom, #1d2671, #c33764);
+background: linear-gradient(to bottom, #1d2671, #c33764);
+border: 3px double aqua;
+border-radius: 30px;
+color: aqua;
+margin-right:  20px;
+}
+#decreaseButton:hover,
+#resetButton:hover,
+#increaseButton:hover{
+    width: 120px;
+    background: #000;
+    color: white;
+}
